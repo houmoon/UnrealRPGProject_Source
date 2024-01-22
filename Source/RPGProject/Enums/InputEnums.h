@@ -1,0 +1,36 @@
+#pragma once
+UENUM()
+enum class EINPUT_TYPE_PLAYER : uint8
+{
+	MOVE			= 1,
+	ROTATE			= 2,
+	JUMP			= 3,
+	SPRINT			= 4,
+	ATTACK			= 5,
+	ZOOMIN			= 6,
+	ZOOMOUT			= 7,
+	QUICKSLOT0		= 8,
+	QUICKSLOT1		= 9,
+	QUICKSLOT2		= 10,
+	QUICKSLOT3		= 11,
+	QUICKSLOT4		= 12,
+	QUICKSLOT5		= 13,
+	QUICKSLOT6		= 14,
+	QUICKSLOT7		= 15,
+	QUICKSLOT8		= 16,
+	QUICKSLOT9		= 17,
+	QUICKSLOT10		= 18,
+	INTERACT		= 19,
+	NONE			= 0
+};
+
+UENUM()
+enum class EINPUT_TYPE_UI : uint8
+{
+	INVENTORY,
+	STATUS,
+	QUEST,
+	MENU,
+	NEXT,
+	ESCAPE,
+};

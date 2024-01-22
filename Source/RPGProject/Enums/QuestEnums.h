@@ -1,0 +1,32 @@
+#pragma once
+
+UENUM()
+enum class EQUEST_STATUS : uint8
+{
+	DISABLED,
+	ENABLED,
+	INPROGRESS,
+	COMPLETE
+};
+
+UENUM()
+enum class EQUEST_ENABLE_TYPE : uint8
+{
+	NONE,
+	GETITEM,
+	KILL,
+	LEVELUP,
+	FINISHQUEST
+};
+
+UENUM()
+enum class EQUEST_CLEAR_TYPE : uint8
+{
+	KILL,
+	TALK,
+	INTERACTION,
+	APPROACHAREA,
+	CHECKITEM,
+	CHECKGOLD,
+	TRIGGER
+};
